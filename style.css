@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;500&display=swap');
+
+:root {
+    --font-family: 'Montserrat', sans-serif;
+    --primary-color: #A5D7E8;
+    --secundary-color: #576CBC;
+    --bg-color: #0a203f;
+}
+
+body {
+    background-color: var(--bg-color);
+    color: var(--secundary-color);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 0;
+    font-family: var(--font-family);
+}
+
+.titulo {
+    font-size: 6em;
+}
+
+.dica {
+    font-size: 3em;
+    margin-top: 1em;
+
+}
+
+.mensagem {
+    font-size: 2em;
+    margin-top: 2em;
+
+}
+
+.box {
+    border: 3px solid var(--secundary-color);
+    border-radius: 20px;
+    display: inline-block;
+    font-size: 4em;
+    padding: 20px;
+    margin: 40px;
+}
+
+.card {
+    background-color: #2b345a;
+    border: 10px solid var(--secundary-color);
+    border-radius: 3em;
+    padding: 4em;
+    display: block;
+    color: var(--primary-color);
+}
+
+.titu {
+    font-size: 8em;
+}
+
+.titu2 {
+    font-size: 6em;
+}
+
+.botao {
+    font-size: 24px;
+    color: #0a203f;
+    margin: 3em;
+    padding: 1em;
+    border: 0;
+    background: var(--secundary-color);
+    border-radius: 5px;
+}
+
+.botao:hover {
+    background-color: #4b5da3;
+}
+
+.botaog {
+    font-size: 24px;
+    margin: 3em;
+    padding: 1em;
+    border: 0;
+    background: red;
+    border-radius: 5px;
+}
+
+.botaog:hover {
+    background-color: rgb(192, 0, 0);
+}
+
+.gameovert {
+    font-size: 10em;
+    color: red;
+}
+
+.gameoverb {
+    font-size: 3em;
+    color: red;
+}
+
+.titu1 {
+    font-size: 5em;
+}
+
+.container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-content: flex-start;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    align-items: flex-start;
+}
